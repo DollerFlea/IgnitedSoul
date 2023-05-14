@@ -1,3 +1,28 @@
 body {
     background-color: #232528;
 }
+#return {
+    width: 10%;
+    height: auto;
+}
+#bottom {
+    margin-bottom: 100px;
+}
+
+.sizeitdown {
+    margin-top: 50px;
+    width: 1000px;
+    height: auto;
+}
+
+@media only screen and (max-width: 400px) {
+    #return{
+        width: 40%;
+    }
+}
+
+@media only screen and (max-width: 1020px) {
+    #return{
+        width: 20%;
+    }
+}
