@@ -1,12 +1,12 @@
 body {
     background-color: #232528;
 }
-#bottom {
-    margin-bottom: 100px;
-}
 #return {
     width: 10%;
     height: auto;
+}
+#bottom {
+    margin-bottom: 100px;
 }
 
 .sizeitdown {
@@ -15,14 +15,45 @@ body {
     height: auto;
 }
 
-@media only screen and (max-width: 400px) {
-    #return{
-        width: 40%;
+
+
+@media only screen and (max-width: 1040px) {
+    .sizeitdown {
+        width: 800px;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 830px) {
+    .sizeitdown {
+        width: 600px;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 630px) {
+    .sizeitdown {
+        width: 400px;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 430px) {
+    .sizeitdown {
+        width: 200px;
+        height: auto;
+        margin-top: 15px;
     }
 }
 
 @media only screen and (max-width: 1020px) {
     #return{
         width: 20%;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    #return{
+        width: 40%;
     }
 }
