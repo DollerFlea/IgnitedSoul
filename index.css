@@ -1,0 +1,28 @@
+body {
+    background-color: #232528;
+}
+
+#chooseChapter {
+    margin-top: 30px;
+    border-color: #ffa400;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 3px;
+}
+
+@font-face {
+    font-family: 'Darumadrop One';
+    src: url('themanga/font/DarumadropOne-Regular.ttf');
+}
+
+#title {
+    font-size: 65px;
+    color: rgb(255, 231, 231);
+    font-family: 'Darumadrop One', sans-serif;
+}
+
+.chapteroverview {
+    color: black;
+    font-size: 33px;
+    margin-top: 15px;
+}
